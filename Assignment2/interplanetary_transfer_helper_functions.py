@@ -21,7 +21,7 @@ from tudatpy.kernel.numerical_simulation import environment
 from tudatpy.kernel.astro import two_body_dynamics
 from tudatpy.kernel.astro import element_conversion
 
-
+# Define departure/arrival epoch - in seconds since J2000
 departure_epoch = ...
 time_of_flight = ...
 arrival_epoch = departure_epoch + time_of_flight
